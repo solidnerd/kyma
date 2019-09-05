@@ -238,8 +238,8 @@ Install Kyma on an [Azure Kubernetes Service](https://azure.microsoft.com/servic
 5. Install Tiller and add additional privileges to be able to access readiness probes endpoints on your AKS cluster.
 
     ```
-    kubectl apply -f https://raw.githubusercontent.com/kyma-project/kyma/$KYMA_RELEASE_VERSION/installation/resources/tiller.yaml
-    kubectl apply -f https://raw.githubusercontent.com/kyma-project/kyma/$KYMA_RELEASE_VERSION/installation/resources/azure-crb-for-healthz.yaml
+    kubectl apply -f https://raw.githubusercontent.com/kyma-project/kyma/$KYMA_VERSION/installation/resources/tiller.yaml
+    kubectl apply -f https://raw.githubusercontent.com/kyma-project/kyma/$KYMA_VERSION/installation/resources/azure-crb-for-healthz.yaml
     ```
 
 6. Install custom installation overrides for AKS. Run:
